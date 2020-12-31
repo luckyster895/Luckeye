@@ -1,0 +1,8 @@
+shodan
+pyasn1>=0.2.3
+pycryptodomex
+pyreadline;sys_platform == 'win32'
+fuzzywuzzy
+requests
+whois
+jsbeautifier
