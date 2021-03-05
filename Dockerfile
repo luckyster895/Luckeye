@@ -128,7 +128,13 @@ RUN \
     #SQLMap
     git clone https://github.com/sqlmapproject/sqlmap.git &&\
     #Xsstrike
-    git clone https://github.com/s0md3v/XSStrike.git 
+    git clone https://github.com/s0md3v/XSStrike.git &&\
+    #Aquatone
+    git clone https://github.com/michenriksen/aquatone.git &&\
+    #Sublist3r
+    git clone https://github.com/aboul3la/Sublist3r.git
+    
+
 
 
 #Installing tools using go
@@ -141,4 +147,5 @@ RUN \
     go get github.com/tomnomnom/waybackurls && \
     #ffuf
     go get -u github.com/ffuf/ffuf
+    #
 

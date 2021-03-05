@@ -6,3 +6,5 @@ fuzzywuzzy
 requests
 whois
 jsbeautifier
+webscreenshot
+selenium
